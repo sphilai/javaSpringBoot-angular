@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+/* angular-cli file: src/styles.css */
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import 'flatpickr/dist/flatpickr.css';
+
+    .footer {
+        position :absolute;
+        bottom: 0;
+        width: 100%;
+        height: 30px;
+        background-color: blue;
+        text-align: center;
+        color: white;
+    }
